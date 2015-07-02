@@ -14,6 +14,15 @@
   CLOSED: [2015-07-01 Wed 16:57]
 * DONE Roboto
   CLOSED: [2015-07-01 Wed 16:52]
-* TODO update colors
-* TODO deploy
-* TODO ssl
+* DONE update colors
+  CLOSED: [2015-07-02 Thu 13:59]
+* DONE deploy
+  CLOSED: [2015-07-02 Thu 13:59]
+* DONE ssl
+  CLOSED: [2015-07-02 Thu 13:59]
+* TODO load balancer
+* TODO map
+* TODO remove linkedin
+* TODO change email
+* TODO target=blank on ethdev
+
