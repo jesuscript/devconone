@@ -20,9 +20,14 @@
   CLOSED: [2015-07-02 Thu 13:59]
 * DONE ssl
   CLOSED: [2015-07-02 Thu 13:59]
-* TODO load balancer
-* TODO map
-* TODO remove linkedin
-* TODO change email
-* TODO target=blank on ethdev
+* DONE load balancer
+  CLOSED: [2015-07-02 Thu 14:30]
+* DONE map
+  CLOSED: [2015-07-02 Thu 14:16]
+* DONE remove linkedin
+  CLOSED: [2015-07-02 Thu 14:19]
+* DONE change email
+  CLOSED: [2015-07-02 Thu 14:19]
+* DONE target=blank on ethdev
+  CLOSED: [2015-07-02 Thu 14:19]
 
