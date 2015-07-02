@@ -1,0 +1,186 @@
+<template name="content">
+  
+  <!-- Page preloader (display loading animation while page loads) -->
+  <div id="preloader"><div class="pulse"></div></div>
+
+  <!-- Begin page borders -->
+  <div class="border-top"></div>
+  <div class="border-bottom"></div>
+  <div class="border-left"></div>
+  <div class="border-right"></div>
+  <!-- End page borders -->
+
+
+  <!-- //////////////////////////////////////////////////////////////////////////////////////////////////
+       ////////// Begin menu  (more info: http://codyhouse.co/gem/secondary-expandable-navigation/) //////////
+       /////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+  <!-- /////////////////////////
+       ////////// End menu //////////
+       ////////////////////////// -->
+
+
+  <!-- ///////////////////////////////////
+       ////////// Begin body content //////////
+       //////////////////////////////////// -->
+
+  <div id="body-content">
+
+
+    <!-- Begin intro section (Youtube video background) -->
+    <section id="section-intro" class="intro-video-bg no-padding">
+      <a id="cd-logo" href="index.html"><img src="img/devcon-white.png" alt="image"></a>
+
+      <!-- Begin video background (Youtube video background) 
+           NOTE: Replace videoURL with your own (videoURL:'your-youtube-video-URL'). 
+           Do not forget to add your background image for mobile devices (because the video background doesn't work on mobile devices).
+           More info about YTPlayer: https://github.com/pupunzi/jquery.mb.YTPlayer -->
+      <div class="video-bg youtube-bg full-height" style="background-image: url(img/intro/video-bg/video-bg.jpg); background-position: 50% 50%;"
+           data-property="{
+                          videoURL:'http://youtu.be/gCo5JCrKNPA',
+                          containment: 'self',
+                          startAt: 0, 
+                          stopAt: 0,
+                          quality: 'default',
+                          autoPlay: true, 
+                          mute: true,  
+                          showControls: false, 
+                          showYTLogo: false,
+                          realfullscreen: true,
+                          optimizeDisplay: true,
+                          stopMovieOnBlur: true
+                          }">
+
+      </div>
+      <!-- End video background (Youtube video background) --> 
+
+
+      <!-- Intro caption -->
+      <div class="intro-caption text-white">
+        <h2>Developer Conference by ETH/DEV</h2>
+        <div class="divider"></div>
+        <p>October 2015 - London, UK</p>
+      </div>
+
+      <!-- Scroll down arrow -->
+      <a class="scroll-down-arrow page-scroll text-center" href="#section-1"><span class="text-white"><i class="fa fa-arrow-down"></i></span></a>
+
+    </section>
+    <!-- End intro section (Youtube video background) -->
+
+    <!-- Section 1 -->
+    <section id="section-1" class="welcome bg-light">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-left col-md-6">
+            <div class="col-inner">
+
+              <!-- Begin Heading -->
+              <div class="heading heading-xlg">
+                <h1>devcon is back</h1>
+                <div class="divider"></div>
+              </div>
+              <!-- End Heading -->
+
+              <p class="lead">And you are invited. </p>
+
+            </div> <!-- /.col-inner -->
+          </div> <!-- /.col -->
+
+          <div class="col-right col-md-6">
+            <div class="col-inner">
+              <p>
+                ΞTHÐΞV is organizing the follow up to its prestigious <a target="_blank" href="https://www.youtube.com/playlist?list=PLJqWcTqh_zKEjpSej3ddtDOKPRGl_7MhS">devcon zero</a> developer symposium.
+              </p>
+              <p>
+                The event will take place over 4 days in early October in Central London, UK. As the number of attendees is strictly limited, we expect tickets to be sold out immediately.
+              </p>
+            </div>
+          </div> <!-- /.col -->
+
+        </div> <!-- /.row -->
+      </div> <!-- /.container -->
+
+    </section>
+
+    {{> register }}
+
+    <!-- Section 11 -->
+    <section id="section-11" class="contact" style="background-image: url(img/map-bg.jpg);">
+
+      <!-- Element cover -->
+      <div class="cover"></div>
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col-left col-md-6">
+            <div class="col-inner">
+
+              <!-- Begin Heading -->
+              <div class="heading heading-xlg">
+                <h1>contact us</h1>
+                <div class="divider"></div>
+              </div>
+              <!-- End Heading -->
+              <p>There are still a few speaker slots available. If you'd like to present at devcon one please email us your presentation topic and credentials.</p>
+            </div> <!-- /.col-inner -->
+          </div> <!-- /.col -->
+
+          <div class="col-right col-md-6">
+            <div class="col-inner">
+
+              <!-- Socials icons (replace "http://link.com" widh your own link) -->
+              <div class="social-icons">
+                <a href="https://www.facebook.com/ethereumproject" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/ethereumproject" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://plus.google.com/+EthereumOrgOfficial" target="_blank"><i class="fa fa-google-plus"></i></a>
+                <a href="https://www.linkedin.com/company/ethereum" target="_blank"><i class="fa fa-linkedin"></i></a>
+              </div>
+
+              <a href="mailto:info@ethdev.com" target="_blank" class="btn btn-warning btn-lg"><i class="fa fa-paper-plane-o"></i> say hello</a>
+
+            </div> <!-- /.col-inner -->
+          </div> <!-- /.col -->
+
+        </div> <!-- /.row -->
+      </div> <!-- /.container -->
+    </section>
+    
+    <!-- Footer -->
+    <footer id="footer" class="bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="copyright small">
+              <a href="https://ethdev.com">EthDev</a>
+              <p>Copyright © All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div> <!-- /.body-content -->
+
+  <!-- /////////////////////////////////
+       ////////// End body content //////////
+       ////////////////////////////////// -->
+
+
+  <!-- Scroll to top button -->
+  <a href="#" class="scrolltotop hidden-xs"><i class="fa fa-arrow-up"></i></a>
+
+  <div id="signup-confirmation-modal" class="modal">
+    <div class="modal-dialog">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <p>
+          Thank you for signing up!
+        </p>
+      </div>
+    </div>
+  </div>
+</template>

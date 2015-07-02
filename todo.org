@@ -1,0 +1,19 @@
+* DONE stephan's copy
+  CLOSED: [2015-07-01 Wed 16:30]
+* DONE move the signup form
+  CLOSED: [2015-07-01 Wed 16:27]
+* DONE favicon
+  CLOSED: [2015-07-01 Wed 16:00]
+* DONE devcon logo
+  CLOSED: [2015-07-01 Wed 15:59]
+* DONE still vid overlay
+  CLOSED: [2015-07-01 Wed 16:57]
+* DONE contact us
+  CLOSED: [2015-07-01 Wed 16:57]
+* DONE copyright
+  CLOSED: [2015-07-01 Wed 16:57]
+* DONE Roboto
+  CLOSED: [2015-07-01 Wed 16:52]
+* TODO update colors
+* TODO deploy
+* TODO ssl
